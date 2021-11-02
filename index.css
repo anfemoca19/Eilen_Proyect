@@ -1,0 +1,32 @@
+
+
+body{
+    background-image: url("imagenes/fondo.jpg");
+}
+.reset {
+    margin: 0;
+    padding: 0;
+}
+.menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    margin-top: 60px;
+    margin-left: 64px;
+    align-items: center;
+}
+.logo{
+    width: 300px;
+    height: 130.7px;
+    margin-left: 15px;
+}
+.lista-menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+ul li{
+    list-style: none;
+}
