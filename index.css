@@ -12,6 +12,7 @@ body{
     grid-template-columns: 1fr 1fr; 
     margin-top: 60px;
     margin-left: 64px;
+    margin-right: 64px;
     align-items: center;
 }
 .logo{
@@ -22,6 +23,8 @@ body{
 .lista-menu{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 64px;
+    margin-right: 64px;
 }
 a{
     text-decoration: none;
@@ -29,4 +32,45 @@ a{
 }
 ul li{
     list-style: none;
+}
+
+
+.cuerpo{
+    display: grid;
+    grid-template-rows: 100px 100px 1fr;
+    justify-content: center;
+    margin-left: 64px;
+    margin-right: 64px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.titulo{
+    color:#766DD6;
+    font-size: 54px;
+}
+.parrafo{
+
+    align-items: center;
+    font-size: 30px;
+}
+.img1{
+    width: 500px;
+    height: 250px;
+}
+
+.pieDePagina{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 100px;
+    margin-left: 64px;
+    margin-right: 64px;
+}
+.contenedor{
+    padding:10px;
+    text-align: center;
+}
+.tituloPieDePagina{
+    font-size: 30px;
+    color: #7B6767;
 }
