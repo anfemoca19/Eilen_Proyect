@@ -12,6 +12,7 @@ body{
     grid-template-columns: 1fr 1fr; 
     margin-top: 60px;
     margin-left: 64px;
+    margin-right: 64px;
     align-items: center;
 }
 .logo{
