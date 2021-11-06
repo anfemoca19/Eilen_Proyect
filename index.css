@@ -30,6 +30,9 @@ a{
     text-decoration: none;
     color: #000;
 }
+a:hover{
+    color: #766DD6;
+}
 ul li{
     list-style: none;
 }
@@ -38,7 +41,7 @@ ul li{
 .cuerpo{
     display: grid;
     grid-template-rows: 100px 100px 1fr;
-    justify-content: center;
+    /* justify-content: center; */
     margin-left: 64px;
     margin-right: 64px;
     text-align: center;
@@ -50,21 +53,20 @@ ul li{
     font-size: 54px;
 }
 .parrafo{
-
-    align-items: center;
     font-size: 30px;
 }
 .img1{
-    width: 500px;
-    height: 250px;
+    display: block;
+    margin:auto;
+    width: 600px;
+    border-radius: 5px;
 }
 
 .pieDePagina{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-top: 100px;
-    margin-left: 64px;
-    margin-right: 64px;
+    margin-bottom: 10px;
 }
 .contenedor{
     padding:10px;
@@ -73,4 +75,9 @@ ul li{
 .tituloPieDePagina{
     font-size: 30px;
     color: #7B6767;
+}
+.imagenes{
+    width: 420px;
+    height: 300px;
+    border-radius: 5px;
 }
