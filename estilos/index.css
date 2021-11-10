@@ -21,12 +21,11 @@ body{
     margin-left: 15px;
 }
 .lista-menu{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin-left: 64px;
-    margin-right: 64px;
+    display: flex;
+    justify-content: space-between;
 }
 a{
+    padding: .5em 2em;
     text-decoration: none;
     color: #000;
 }
