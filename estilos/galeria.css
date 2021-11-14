@@ -35,3 +35,15 @@ a:hover{
 ul li{
     list-style: none;
 }
+.galeria{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.imagenesGaleria{
+    width: 250px;
+    height:300px;
+    border-radius: 5px;
+}
