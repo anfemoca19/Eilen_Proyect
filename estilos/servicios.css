@@ -35,3 +35,45 @@ a:hover{
 ul li{
     list-style: none;
 }
+
+.productos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 64px;
+    margin-right: 64px;
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.tituloPieDePagina{
+    font-size: 30px;
+    color: #7B6767;
+}
+.imagenes{
+    width: 420px;
+    height: 300px;
+    border-radius: 5px;
+    margin-top: 1px;
+}
+.precio{
+    font-size: 30px;
+    margin-top: 5px;
+}
+.seccionDos{
+    display: block;
+    align-items: center;
+}
+.textoPrecio{
+    text-align: center;
+    font-size: 30px;
+}
+.imagenes1{
+    width: 420px;
+    height: 300px;
+    padding: auto;
+}
