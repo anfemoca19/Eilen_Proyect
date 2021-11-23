@@ -67,13 +67,15 @@ ul li{
 .seccionDos{
     display: block;
     align-items: center;
+    margin-top: 25px;
 }
 .textoPrecio{
     text-align: center;
     font-size: 30px;
 }
 .imagenes1{
+    margin-top: 5px;
     width: 420px;
     height: 300px;
-    padding: auto;
+    border-radius: 5px;
 }

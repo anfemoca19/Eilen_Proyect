@@ -38,13 +38,19 @@ ul li{
 
 .tarjeta{
     margin-top: 50px;
-    display: block;
+    display: grid;
+    grid-gap: 5px;
     text-align: center;
+    grid-template-columns: 1fr 1fr;
 }
 .imgTarjeta{
-    width: 800px;
-    height: 500px;
-    border-radius: 5px;
+    width: 500px;
+    height: 350px;
+    border-radius: 10px;
+}
+.map{
+    width:500px;
+    height:350px;
 }
 .imagenesContacto{
     display: grid;
@@ -54,7 +60,7 @@ ul li{
     text-align: center;
 }
 .imagenesGaleria{
-    width: 250px;
-    height:310px;
+    width: 230px;
+    height:308px;
     border-radius: 5px;
 }
