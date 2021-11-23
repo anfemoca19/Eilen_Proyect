@@ -35,3 +35,26 @@ a:hover{
 ul li{
     list-style: none;
 }
+
+.tarjeta{
+    margin-top: 50px;
+    display: block;
+    text-align: center;
+}
+.imgTarjeta{
+    width: 800px;
+    height: 500px;
+    border-radius: 5px;
+}
+.imagenesContacto{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.imagenesGaleria{
+    width: 250px;
+    height:310px;
+    border-radius: 5px;
+}
